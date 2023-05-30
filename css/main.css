@@ -19,8 +19,25 @@ nav > * {
   position: relative;
   cursor: pointer;
 }
+#mail:hover,
+#imgs:hover {
+  text-decoration: underline;
+}
+#menu span {
+  width: 30px; height: 30px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  position: absolute;
+  top: -3px;
+  left: -7px;
+  opacity: 0;
+}
+#menu span:hover {
+  opacity: 1;
+}
 nav a img {
   width: 15px;
+  text-align: center;
 }
 #menu {
   opacity: 0.5;
@@ -33,6 +50,11 @@ nav a #login {
   border: 0;
   border-radius: 3px;
   margin-right: 30px;
+  cursor: pointer;
+}
+nav a #login:hover {
+  text-decoration: underline;
+  background-color: rgb(51, 100, 184);
 }
 
 /* main_wrap */
