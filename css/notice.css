@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container {
+    width: 250px; height: 375px;
+    padding: 100px 50px;
+    border: 1px solid black;
+    background: url("../images/background.jpg") no-repeat center;
+    background-size: cover;
+}
